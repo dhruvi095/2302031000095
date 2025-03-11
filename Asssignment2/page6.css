@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3D003D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #2A002A;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+.practice-container {
+    background: #4A004A;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.level-selection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.level {
+    text-align: center;
+}
+
+.level img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.start-btn {
+    background: #320032;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.start-btn:hover {
+    background: #5A005A;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #2A002A;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+footer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-content div {
+    max-width: 200px;
+}
+
+.footer-content h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin: 5px 0;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 14px;
+}
